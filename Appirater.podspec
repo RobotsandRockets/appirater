@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.author            = { 'Arash Payan' => 'arash.payan@gmail.com' }
   s.source            = { :git => 'https://github.com/arashpayan/appirater.git', :tag => '1.0.2' }
   s.source_files      = '*.{h,m}'
-  s.resources         = '*.lproj'
   s.requires_arc      = true
   s.frameworks        = 'CFNetwork', 'SystemConfiguration'
   s.weak_framework    = 'StoreKit'
